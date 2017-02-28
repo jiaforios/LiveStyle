@@ -13,6 +13,7 @@
 #import "TodayHappenView.h"
 #import "TodayHappenViewController.h"
 #import "QRViewController.h"
+#import "JokeViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -31,8 +32,6 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     
     [self.view addSubview:self.widgetTabv];
-    
-    
     
     [self.widgetTabv mas_makeConstraints:^(MASConstraintMaker *make) {
         
@@ -59,8 +58,10 @@
         }else
         {
             // 不是keywindow 才处理外界通知更新UI
-            [self getDataFromRealm];
-            [self.widgetTabv reloadData];
+            [self getDataFromRealm:^(NSArray *arr) {
+                [self.widgetTabv reloadData];
+            }];
+            
         }
         
     }];
@@ -71,12 +72,12 @@
 {
     if (_dataSource == nil) {
         _dataSource = [NSMutableArray new];
-        [self getDataFromRealm];
+        [self getDataFromRealm:nil];
     }
     return _dataSource;
 }
 
-- (void)getDataFromRealm
+- (void)getDataFromRealm:(void(^)(NSArray *))realmBlock
 {
     
     [_dataSource removeAllObjects];
@@ -92,6 +93,9 @@
             }
             
         }
+        
+        realmBlock?realmBlock([_dataSource copy]):nil;
+        
     }];
 }
 - (UITableView *)widgetTabv
@@ -149,10 +153,9 @@
     cell.textLabel.text = m.widgetName;
     cell.detailTextLabel.text = @(m.useCount).stringValue;
     [cell layoutIfNeeded];
-    
+
     return cell;
 }
-
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -195,9 +198,16 @@
             QRViewController *tvc = [[QRViewController alloc] init];
             tvc.view.backgroundColor = [UIColor whiteColor];
             [self.navigationController pushViewController:tvc animated:YES];
-            
         }
             break;
+        case 106:
+        {
+            JokeViewController *jvc = [[JokeViewController alloc] init];
+            jvc.view.backgroundColor = [UIColor whiteColor];
+            [self.navigationController pushViewController:jvc animated:YES];
+        }
+            break;
+            
         default:
         {
             

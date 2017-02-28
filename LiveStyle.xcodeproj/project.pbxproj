@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D054D551E6523CE00BA4EAF /* TodayHappenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D054D511E6523CE00BA4EAF /* TodayHappenViewController.m */; };
+		6D054D561E6523CE00BA4EAF /* JokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D054D541E6523CE00BA4EAF /* JokeViewController.m */; };
+		6D054D591E653CE600BA4EAF /* JokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D054D581E653CE600BA4EAF /* JokeModel.m */; };
+		6D054D831E65542E00BA4EAF /* TabviewProtocal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D054D821E65542E00BA4EAF /* TabviewProtocal.m */; };
+		6D054D861E65547E00BA4EAF /* JokeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D054D851E65547E00BA4EAF /* JokeViewModel.m */; };
+		6D054D8A1E65607500BA4EAF /* JokeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D054D881E65607500BA4EAF /* JokeCell.m */; };
+		6D054D8B1E65607500BA4EAF /* JokeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D054D891E65607500BA4EAF /* JokeCell.xib */; };
+		6D054D971E6569FB00BA4EAF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D054D941E6569FB00BA4EAF /* NewsCell.xib */; };
+		6D054D981E6569FB00BA4EAF /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D054D951E6569FB00BA4EAF /* NewsCell.m */; };
 		6D3E370F1E5FC72600B20E26 /* RLMRealm+RealmTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E370E1E5FC72600B20E26 /* RLMRealm+RealmTool.m */; };
 		6D3E37111E600F4600B20E26 /* widgetPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D3E37101E600F4600B20E26 /* widgetPlist.plist */; };
 		6D3E37151E60221500B20E26 /* TodayHappenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E37131E60221500B20E26 /* TodayHappenCell.m */; };
@@ -450,7 +459,6 @@
 		6D7FA6401E640A85001C48E8 /* UIVisualEffectView+TFEasyCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7FA4C81E640A84001C48E8 /* UIVisualEffectView+TFEasyCoder.m */; };
 		6D7FA6411E640A85001C48E8 /* UIWebView+TFEasyCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7FA4CA1E640A84001C48E8 /* UIWebView+TFEasyCoder.m */; };
 		6D7FA6421E640A85001C48E8 /* UIWindow+TFEasyCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7FA4CC1E640A84001C48E8 /* UIWindow+TFEasyCoder.m */; };
-		6D7FA6461E640CAD001C48E8 /* TodayHappenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7FA6451E640CAD001C48E8 /* TodayHappenViewController.m */; };
 		6D9B34361E641E01002BA0D1 /* HWScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B34351E641E01002BA0D1 /* HWScanViewController.m */; };
 		6D9B343A1E641F5A002BA0D1 /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B34381E641F5A002BA0D1 /* QRViewController.m */; };
 		6DB245EE1E5EC759001910CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB245ED1E5EC759001910CB /* main.m */; };
@@ -473,14 +481,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D054D501E6523CE00BA4EAF /* TodayHappenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayHappenViewController.h; sourceTree = "<group>"; };
+		6D054D511E6523CE00BA4EAF /* TodayHappenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayHappenViewController.m; sourceTree = "<group>"; };
+		6D054D531E6523CE00BA4EAF /* JokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeViewController.h; sourceTree = "<group>"; };
+		6D054D541E6523CE00BA4EAF /* JokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeViewController.m; sourceTree = "<group>"; };
+		6D054D571E653CE600BA4EAF /* JokeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeModel.h; sourceTree = "<group>"; };
+		6D054D581E653CE600BA4EAF /* JokeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeModel.m; sourceTree = "<group>"; };
+		6D054D811E65542E00BA4EAF /* TabviewProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabviewProtocal.h; sourceTree = "<group>"; };
+		6D054D821E65542E00BA4EAF /* TabviewProtocal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabviewProtocal.m; sourceTree = "<group>"; };
+		6D054D841E65547E00BA4EAF /* JokeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeViewModel.h; sourceTree = "<group>"; };
+		6D054D851E65547E00BA4EAF /* JokeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeViewModel.m; sourceTree = "<group>"; };
+		6D054D871E65607500BA4EAF /* JokeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeCell.h; sourceTree = "<group>"; };
+		6D054D881E65607500BA4EAF /* JokeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeCell.m; sourceTree = "<group>"; };
+		6D054D891E65607500BA4EAF /* JokeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JokeCell.xib; sourceTree = "<group>"; };
+		6D054D941E6569FB00BA4EAF /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		6D054D951E6569FB00BA4EAF /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		6D054D961E6569FB00BA4EAF /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
 		6D3E37091E5FC03E00B20E26 /* LiveStyleHead.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveStyleHead.pch; sourceTree = "<group>"; };
 		6D3E370C1E5FC29D00B20E26 /* MZMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMacro.h; sourceTree = "<group>"; };
 		6D3E370D1E5FC72600B20E26 /* RLMRealm+RealmTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMRealm+RealmTool.h"; sourceTree = "<group>"; };
 		6D3E370E1E5FC72600B20E26 /* RLMRealm+RealmTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMRealm+RealmTool.m"; sourceTree = "<group>"; };
 		6D3E37101E600F4600B20E26 /* widgetPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = widgetPlist.plist; sourceTree = "<group>"; };
-		6D3E37121E60221500B20E26 /* TodayHappenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayHappenCell.h; sourceTree = "<group>"; };
-		6D3E37131E60221500B20E26 /* TodayHappenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayHappenCell.m; sourceTree = "<group>"; };
-		6D3E37141E60221500B20E26 /* TodayHappenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayHappenCell.xib; sourceTree = "<group>"; };
+		6D3E37121E60221500B20E26 /* TodayHappenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodayHappenCell.h; path = ../TodayHappenCell.h; sourceTree = "<group>"; };
+		6D3E37131E60221500B20E26 /* TodayHappenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodayHappenCell.m; path = ../TodayHappenCell.m; sourceTree = "<group>"; };
+		6D3E37141E60221500B20E26 /* TodayHappenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TodayHappenCell.xib; path = ../TodayHappenCell.xib; sourceTree = "<group>"; };
 		6D3E37171E60257F00B20E26 /* todayHappenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = todayHappenModel.h; sourceTree = "<group>"; };
 		6D3E37181E60257F00B20E26 /* todayHappenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = todayHappenModel.m; sourceTree = "<group>"; };
 		6D3E371C1E6025C500B20E26 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1374,8 +1398,6 @@
 		6D7FA4CA1E640A84001C48E8 /* UIWebView+TFEasyCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TFEasyCoder.m"; sourceTree = "<group>"; };
 		6D7FA4CB1E640A84001C48E8 /* UIWindow+TFEasyCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+TFEasyCoder.h"; sourceTree = "<group>"; };
 		6D7FA4CC1E640A84001C48E8 /* UIWindow+TFEasyCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+TFEasyCoder.m"; sourceTree = "<group>"; };
-		6D7FA6441E640CAD001C48E8 /* TodayHappenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayHappenViewController.h; sourceTree = "<group>"; };
-		6D7FA6451E640CAD001C48E8 /* TodayHappenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayHappenViewController.m; sourceTree = "<group>"; };
 		6D9B34341E641E01002BA0D1 /* HWScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWScanViewController.h; sourceTree = "<group>"; };
 		6D9B34351E641E01002BA0D1 /* HWScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWScanViewController.m; sourceTree = "<group>"; };
 		6D9B34371E641F5A002BA0D1 /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
@@ -1425,6 +1447,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D054D4C1E65233700BA4EAF /* WidgetModel */ = {
+			isa = PBXGroup;
+			children = (
+				6D3E37171E60257F00B20E26 /* todayHappenModel.h */,
+				6D3E37181E60257F00B20E26 /* todayHappenModel.m */,
+				6D054D571E653CE600BA4EAF /* JokeModel.h */,
+				6D054D581E653CE600BA4EAF /* JokeModel.m */,
+				6D054D841E65547E00BA4EAF /* JokeViewModel.h */,
+				6D054D851E65547E00BA4EAF /* JokeViewModel.m */,
+				6D054D811E65542E00BA4EAF /* TabviewProtocal.h */,
+				6D054D821E65542E00BA4EAF /* TabviewProtocal.m */,
+			);
+			name = WidgetModel;
+			sourceTree = "<group>";
+		};
+		6D054D4F1E6523CE00BA4EAF /* TodayHappen */ = {
+			isa = PBXGroup;
+			children = (
+				6D054D501E6523CE00BA4EAF /* TodayHappenViewController.h */,
+				6D054D511E6523CE00BA4EAF /* TodayHappenViewController.m */,
+			);
+			path = TodayHappen;
+			sourceTree = "<group>";
+		};
+		6D054D521E6523CE00BA4EAF /* Joke */ = {
+			isa = PBXGroup;
+			children = (
+				6D054D531E6523CE00BA4EAF /* JokeViewController.h */,
+				6D054D541E6523CE00BA4EAF /* JokeViewController.m */,
+			);
+			path = Joke;
+			sourceTree = "<group>";
+		};
 		6D3E371A1E6025BD00B20E26 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
@@ -1630,8 +1685,17 @@
 		6D7FA1CB1E640041001C48E8 /* WidgetView */ = {
 			isa = PBXGroup;
 			children = (
+				6D054D941E6569FB00BA4EAF /* NewsCell.xib */,
+				6D054D951E6569FB00BA4EAF /* NewsCell.m */,
+				6D054D961E6569FB00BA4EAF /* NewsCell.h */,
 				6D7FA1CC1E640041001C48E8 /* TodayHappenView.h */,
 				6D7FA1CD1E640041001C48E8 /* TodayHappenView.m */,
+				6D3E37121E60221500B20E26 /* TodayHappenCell.h */,
+				6D3E37131E60221500B20E26 /* TodayHappenCell.m */,
+				6D3E37141E60221500B20E26 /* TodayHappenCell.xib */,
+				6D054D871E65607500BA4EAF /* JokeCell.h */,
+				6D054D881E65607500BA4EAF /* JokeCell.m */,
+				6D054D891E65607500BA4EAF /* JokeCell.xib */,
 			);
 			path = WidgetView;
 			sourceTree = "<group>";
@@ -2435,8 +2499,9 @@
 		6D7FA6431E640C3E001C48E8 /* WidgetViewController */ = {
 			isa = PBXGroup;
 			children = (
-				6D7FA6441E640CAD001C48E8 /* TodayHappenViewController.h */,
-				6D7FA6451E640CAD001C48E8 /* TodayHappenViewController.m */,
+				6D054D4F1E6523CE00BA4EAF /* TodayHappen */,
+				6D054D521E6523CE00BA4EAF /* Joke */,
+				6D9B34331E641DF6002BA0D1 /* QR */,
 			);
 			path = WidgetViewController;
 			sourceTree = "<group>";
@@ -2458,7 +2523,8 @@
 				6D9B34371E641F5A002BA0D1 /* QRViewController.h */,
 				6D9B34381E641F5A002BA0D1 /* QRViewController.m */,
 			);
-			path = QR;
+			name = QR;
+			path = ../QR;
 			sourceTree = "<group>";
 		};
 		6DB245E01E5EC759001910CB = {
@@ -2481,8 +2547,8 @@
 		6DB245EB1E5EC759001910CB /* LiveStyle */ = {
 			isa = PBXGroup;
 			children = (
-				6D7FA1BF1E63F10F001C48E8 /* Image */,
 				6D3E370C1E5FC29D00B20E26 /* MZMacro.h */,
+				6D7FA1BF1E63F10F001C48E8 /* Image */,
 				6D3E371A1E6025BD00B20E26 /* Venders */,
 				6DB246301E5EDE5B001910CB /* Manger */,
 				6DB246061E5EC82F001910CB /* AppNoUse */,
@@ -2571,16 +2637,11 @@
 		6DB246231E5ECAAA001910CB /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
-				6D9B34331E641DF6002BA0D1 /* QR */,
+				6D054D4C1E65233700BA4EAF /* WidgetModel */,
 				6D7FA6431E640C3E001C48E8 /* WidgetViewController */,
 				6D7FA1CB1E640041001C48E8 /* WidgetView */,
 				6DB246241E5ECAAA001910CB /* MainViewController.h */,
 				6DB246251E5ECAAA001910CB /* MainViewController.m */,
-				6D3E37121E60221500B20E26 /* TodayHappenCell.h */,
-				6D3E37131E60221500B20E26 /* TodayHappenCell.m */,
-				6D3E37141E60221500B20E26 /* TodayHappenCell.xib */,
-				6D3E37171E60257F00B20E26 /* todayHappenModel.h */,
-				6D3E37181E60257F00B20E26 /* todayHappenModel.m */,
 			);
 			path = MainPage;
 			sourceTree = "<group>";
@@ -2686,8 +2747,10 @@
 				6D3E37161E60221500B20E26 /* TodayHappenCell.xib in Resources */,
 				6D3E37321E6025C500B20E26 /* Info.plist in Resources */,
 				6DB245F91E5EC759001910CB /* Assets.xcassets in Resources */,
+				6D054D971E6569FB00BA4EAF /* NewsCell.xib in Resources */,
 				6D7FA1D11E640A59001C48E8 /* downDay.png in Resources */,
 				6D7FA1C11E63F10F001C48E8 /* placeHolder.png in Resources */,
+				6D054D8B1E65607500BA4EAF /* JokeCell.xib in Resources */,
 				6D7FA1D21E640A59001C48E8 /* upDay.png in Resources */,
 				6DB245F71E5EC759001910CB /* Main.storyboard in Resources */,
 				6D3E37111E600F4600B20E26 /* widgetPlist.plist in Resources */,
@@ -2723,6 +2786,7 @@
 				6D7FA5E61E640A85001C48E8 /* UIMotionEffect+TFEasyCoder.m in Sources */,
 				6D7FA5731E640A85001C48E8 /* NSURLProtocol+TFEasyCoder.m in Sources */,
 				6D7FA4EF1E640A84001C48E8 /* NSCoder+TFEasyCoder.m in Sources */,
+				6D054D981E6569FB00BA4EAF /* NewsCell.m in Sources */,
 				6D7FA1AF1E63EF48001C48E8 /* SDImageCache.m in Sources */,
 				6D7FA5DF1E640A85001C48E8 /* UILocalizedIndexedCollation+TFEasyCoder.m in Sources */,
 				6D7FA4DA1E640A84001C48E8 /* CAReplicatorLayer+TFEasyCoder.m in Sources */,
@@ -2795,6 +2859,7 @@
 				6D7FA1371E63B8A0001C48E8 /* NSArray+MASAdditions.m in Sources */,
 				6D7FA4DE1E640A84001C48E8 /* CATextLayer+TFEasyCoder.m in Sources */,
 				6D7FA1B61E63EF48001C48E8 /* SDWebImagePrefetcher.m in Sources */,
+				6D054D8A1E65607500BA4EAF /* JokeCell.m in Sources */,
 				6D7FA5A01E640A85001C48E8 /* UIActivity+TFEasyCoder.m in Sources */,
 				6D7FA5CD1E640A85001C48E8 /* UIFocusGuide+TFEasyCoder.m in Sources */,
 				6D7FA5561E640A85001C48E8 /* NSRecursiveLock+TFEasyCoder.m in Sources */,
@@ -2823,11 +2888,13 @@
 				6D7FA5E11E640A85001C48E8 /* UILongPressGestureRecognizer+TFEasyCoder.m in Sources */,
 				6D7FA5851E640A85001C48E8 /* TFEasyCoder_CA.m in Sources */,
 				6D7FA5F91E640A85001C48E8 /* UIPresentationController+TFEasyCoder.m in Sources */,
+				6D054D591E653CE600BA4EAF /* JokeModel.m in Sources */,
 				6D7FA6071E640A85001C48E8 /* UIReferenceLibraryViewController+TFEasyCoder.m in Sources */,
 				6D7FA4D91E640A84001C48E8 /* CAPropertyAnimation+TFEasyCoder.m in Sources */,
 				6D7FA4D11E640A84001C48E8 /* CAEAGLLayer+TFEasyCoder.m in Sources */,
 				6D7FA6261E640A85001C48E8 /* UITableViewController+TFEasyCoder.m in Sources */,
 				6D7FA53B1E640A85001C48E8 /* NSNetService+TFEasyCoder.m in Sources */,
+				6D054D551E6523CE00BA4EAF /* TodayHappenViewController.m in Sources */,
 				6D7FA5B21E640A85001C48E8 /* UICollectionView+TFEasyCoder.m in Sources */,
 				6D7FA17C1E63CCE6001C48E8 /* WidgetNetwork.m in Sources */,
 				6D7FA63A1E640A85001C48E8 /* UIVibrancyEffect+TFEasyCoder.m in Sources */,
@@ -2936,6 +3003,7 @@
 				6D7FA5A11E640A85001C48E8 /* UIActivityIndicatorView+TFEasyCoder.m in Sources */,
 				6D7FA5341E640A85001C48E8 /* NSMutableDictionary+TFEasyCoder.m in Sources */,
 				6D7FA61B1E640A85001C48E8 /* UIStoryboard+TFEasyCoder.m in Sources */,
+				6D054D861E65547E00BA4EAF /* JokeViewModel.m in Sources */,
 				6D7FA5FD1E640A85001C48E8 /* UIPreviewActionGroup+TFEasyCoder.m in Sources */,
 				6D7FA5741E640A85001C48E8 /* NSURLQueryItem+TFEasyCoder.m in Sources */,
 				6D3E37371E6025C500B20E26 /* MJPropertyType.m in Sources */,
@@ -2991,6 +3059,7 @@
 				6D7FA62C1E640A85001C48E8 /* UITextField+TFEasyCoder.m in Sources */,
 				6D7FA63C1E640A85001C48E8 /* UIView+TFEasyCoder.m in Sources */,
 				6D7FA4EC1E640A84001C48E8 /* NSCachedURLResponse+TFEasyCoder.m in Sources */,
+				6D054D831E65542E00BA4EAF /* TabviewProtocal.m in Sources */,
 				6D7FA5BA1E640A85001C48E8 /* UICollectionViewTransitionLayout+TFEasyCoder.m in Sources */,
 				6D7FA5401E640A85001C48E8 /* NSNull+TFEasyCoder.m in Sources */,
 				6D7FA50F1E640A84001C48E8 /* NSFileVersion+TFEasyCoder.m in Sources */,
@@ -3095,6 +3164,7 @@
 				6D7FA5171E640A84001C48E8 /* NSIndexSet+TFEasyCoder.m in Sources */,
 				6D3E37191E60257F00B20E26 /* todayHappenModel.m in Sources */,
 				6DB245EE1E5EC759001910CB /* main.m in Sources */,
+				6D054D561E6523CE00BA4EAF /* JokeViewController.m in Sources */,
 				6D7FA5EA1E640A85001C48E8 /* UIMutableUserNotificationCategory+TFEasyCoder.m in Sources */,
 				6D7FA4E61E640A84001C48E8 /* NSAttributedString+TFEasyCoder.m in Sources */,
 				6D7FA6041E640A85001C48E8 /* UIPrintPaper+TFEasyCoder.m in Sources */,
@@ -3130,7 +3200,6 @@
 				6D7FA5541E640A85001C48E8 /* NSProxy+TFEasyCoder.m in Sources */,
 				6D7FA1B01E63EF48001C48E8 /* SDImageCacheConfig.m in Sources */,
 				6D7FA4F41E640A84001C48E8 /* NSConstantString+TFEasyCoder.m in Sources */,
-				6D7FA6461E640CAD001C48E8 /* TodayHappenViewController.m in Sources */,
 				6D7FA6181E640A85001C48E8 /* UISplitViewController+TFEasyCoder.m in Sources */,
 				6D7FA5241E640A84001C48E8 /* NSLayoutYAxisAnchor+TFEasyCoder.m in Sources */,
 				6D7FA5AE1E640A85001C48E8 /* UIBezierPath+TFEasyCoder.m in Sources */,

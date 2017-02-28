@@ -27,5 +27,4 @@
 - (void)viewData:(NSDictionary *)model;
 
 
-
 @end

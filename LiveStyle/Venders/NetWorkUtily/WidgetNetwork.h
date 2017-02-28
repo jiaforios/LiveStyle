@@ -17,5 +17,9 @@ typedef void(^failureBlock)(NSError *error);
         andsucBlock:(successBlock)sblock
        andFailBlock:(failureBlock)fblock;
 
++ (void)joke:(NSString *)urlStr
+          andParams:(id)params
+        andsucBlock:(successBlock)sblock
+       andFailBlock:(failureBlock)fblock;
 
 @end

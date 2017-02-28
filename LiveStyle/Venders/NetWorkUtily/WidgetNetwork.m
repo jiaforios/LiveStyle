@@ -19,5 +19,13 @@
 }
 
 
++ (void)joke:(NSString *)urlStr
+          andParams:(id)params
+        andsucBlock:(successBlock)sblock
+       andFailBlock:(failureBlock)fblock
+{
+    [NetworkTool getWithUrlString:urlStr andParams:params success:sblock fail:fblock];
+    
+}
 
 @end

@@ -45,6 +45,9 @@
 
 #define todayHappenUrl @"http://api.juheapi.com/japi/toh?"
 #define todayHappenToken @"32224c03653c9b305585abb3bae0c3b0"
+// http://api.avatardata.cn/Joke/NewstJoke?key=c3731e36731e49e6bc6cc62d3d6607cf&page=2&rows=10
+#define JOKEUrl @"http://api.avatardata.cn/Joke/NewstJoke?"
+#define JOKEToken @"73e0a9fd31ed4cb68959acd2f377f9e5"
 
 
 

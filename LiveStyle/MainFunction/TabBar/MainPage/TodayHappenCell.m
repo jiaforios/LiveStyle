@@ -13,6 +13,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    
     [self.pic mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.left.mas_equalTo(self.contentView.mas_left).offset(10);
@@ -41,7 +42,6 @@
         make.top.mas_equalTo(self.personLabel.mas_bottomMargin).with.offset(20);
         make.left.mas_equalTo(self.pic.mas_rightMargin).with.offset(15);
     }];
-    
     
     
     [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
